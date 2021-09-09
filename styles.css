@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Poppins;
+}
+
+body{
+    background-image: url(/Images/filip-zrnzevic-_EMkxLdko9k-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    min-height: 100vh;
+    
+    
+    
+}
+
+
+
+.pomodoro-title{
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+}
+
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 180px;
+    width: 200px;
+    border: 10px solid #081c35;
+    border-radius: 100%;
+    color: white;
+    font-size: 2.4em;
+
+}
+
+
+
+.button-container{
+    
+    display: flex;
+    gap: 1em;
+    justify-content: center;
+    flex-direction: column;
+}
+
+button{
+    width: 100px;
+    height: 25px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+#play{
+    background-color: #092417;
+    color: white;
+    
+}
+
+#reset{
+    background-color: #0066e4;
+    color: white;
+}
+
+.message{
+    display: none;
+    margin-top: 2em;
+    text-align: center;
+    color: white;
+    
+}
+
+.rain-btn{
+    background-color: #081c35;
+    color: white;
+}
+
+.main-container{
+    margin-top: 4em;
+    display: flex;
+    gap: 5em;
+    justify-content: center;
+    
+}
+
+
